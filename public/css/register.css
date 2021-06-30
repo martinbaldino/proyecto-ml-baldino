@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+#register{
+    width: 92vw;
+    height: 50%;
+    padding: 4%;
+    background-color:  #ebebeb;
+}
+#perfil{
+    width: 10px;
+}
+input.intereses{
+    width: 10px;
+    
+}
+form p{
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+#comprador{
+    margin-right: 1vw;
+}
+
+form i{
+    font-weight: normal;
+    margin-left: 1vw;
+    position: relative;
+    bottom: 10px;
+}
+#enviar-form,#reset-form{
+    border: solid #ebebeb 1px;
+    border-radius: 10px;
+    width: 30%;
+}
+.completar{
+    border: solid #ebebeb 1px;
+    border-radius: 10px;
+}

@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+}
+
+/*--------------------------- CONFIGURACION GENERAL HEADER-------------------------*/
+header{
+    background-color:#EAC926;
+    width: 100vw;
+}
+header p{
+    font-size: 12px;
+}
+header figure{
+    margin: 0%;
+}
+/*--------------------------- TOP- HEADER----------------------------------------- */
+section#top-header{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100vw;
+    height: 20vh;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+p#holding-usd{
+    display: block;
+    width: 20vw;
+    margin:auto;
+  
+  
+}
+#form-barrabusqueda{
+    width: 50vw;
+    
+}
+
+input{
+    
+    width: 50vw;
+    height: 5vh;
+  /*  position: relative;
+   right: 30vw;
+    top:5vh;
+    */
+}
+button{
+    background-color: white;
+    width: 5%;
+    height: 5vh;
+}
+
+img#logo{
+    width:100%;
+    
+}
+
+#top-header figure{
+    width: 30vw;
+    height: 8vh;
+    
+    margin: auto;
+}
+
+#form-barrabusqueda
+{
+    width: 30vw;
+    margin-top: 8vh;
+    
+    
+}
+#barra{
+    border: solid #EAC926 1px;
+    border-radius: 10px;
+    color:  #ebebeb;
+    width: 100%;
+    
+}
+
+#lupa{
+    color:  #ebebeb;
+    border-left: solid 1px  #ebebeb;
+    position: relative;
+    bottom: 10vh;
+    left: 60%;
+}
+#boton-busqueda{
+    background-color: transparent;
+    border: solid transparent;
+    border-radius: 10px;
+    width: 8vw;
+    height: 8vh;
+    position: relative;
+    bottom: 50px;
+    left: 80%;
+    z-index: 10;
+    
+}
+/*--------------------------- BOTTOM HEADER ---------------------------------------*/
+i#burger-bottom{
+    display: block;
+    
+    text-align: center;
+    width: 10%;
+    border-radius: 10px;
+    background-color:  #03264C;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    
+}
+figure img#banner{
+    width: 100vw;    
+    height: 18vh;
+    }
+    img#banner{
+        width: 100vw;
+    }
+
+    .menu ul{
+        list-style: none;
+        
+    }
+    .menu li{
+    
+    margin-right: 10px;
+    }
+    
+    .menu a{
+        text-decoration: none;
+        color: black;
+        } 
+    
+/* -------------------------- MEDIA QUERIES----------------------------------------*/ 
+
+
+/*--------------------------- MEDIA QUERIES MOBILE---------------------------------*/
+
+@media  (max-width: 360px)
+{
+    section#bottom-header{
+        display: none;
+    }
+    section#top-header{
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    #top-header figure{
+        width: 50vw;
+        height: 8vh;
+        
+        margin: auto;
+    }
+    #form-barrabusqueda{
+        width: 50vw;
+        display: flex;
+        margin: auto;
+    }
+    #barra{
+        font-size: .5rem;
+    }
+    #lupa{
+        position: relative;
+    
+    }
+    /*
+    section#top-header figure{
+       
+      width: 30%;  
+      height: 25%;
+    }
+    */
+    #logo{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+/*----------------------------MEDIA QUERIES TABLET------------------------------------------*/
+@media  (min-width: 769px)
+{
+    header{
+        width: 100vw;
+        justify-content: center;
+    }
+      /*
+      button,input{
+          position: relative;
+          right: 200px;
+          top:20px;
+      }
+      */
+    section#bottom-header{
+        display: initial;
+        display: flex;
+        justify-content: space-between;      
+    }
+    .menu ul{
+        display: flex;
+        
+    }
+    i#burger-bottom
+{
+    display: none;
+}
+}
+
+/*---------------------------------MEDIA QUERIESS DESKTOP-----------------------------------*/

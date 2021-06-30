@@ -1,0 +1,35 @@
+
+#login{
+       width: 100vw;
+       height: 50%;
+       padding: 4%;
+       background-color:  #ebebeb;
+
+    
+}
+#usuario,#pass{
+    display: block;
+    margin-bottom: 3%;
+    width: 50%;
+    border: solid #ebebeb 1px;
+    border-radius: 10px;
+    align-self: center;
+    font-size: .8rem;
+    
+}
+#enviar{
+    width: 50%;
+    border: solid #ebebeb 1px;
+    border-radius: 10px;
+    background-color: #1259c3;
+    color: white;
+    transition: all 0.5s;
+}
+#enviar:hover{
+    background-color:  #0022AA ;
+}
+
+#usuario,#pass,#enviar{
+    position: relative;
+    left: 30%;
+}
